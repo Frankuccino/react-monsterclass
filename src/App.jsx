@@ -28,6 +28,8 @@ import Weather from "./components/Weather.jsx";
 import WelcomeMessage from "./components/WelcomeMessage.jsx";
 import UpdateUser from "./components/UpdateUser.jsx";
 import CounterReducer from "./components/CounterReducer.jsx";
+import FocusInput from "./components/FocusInput.jsx";
+import Timer from "./components/Timer.jsx";
 // Timestamp: 58:00 - 49 hrs left.
 // Timestamp: 2:11:00 - 48 hrs left (Time spent: 2hrs & 50 minutes or ~3hrs)
 // Timestamp: 2:45:00 -~47 hrs left (Time Spent: 2hrs ) (covered useState)
@@ -35,6 +37,8 @@ import CounterReducer from "./components/CounterReducer.jsx";
 const App = () => {
   return (
     <>
+      <Timer />
+      <FocusInput />
       <CounterReducer />
 
       <UserProvider>
@@ -197,3 +201,10 @@ export default App;
 // ----- things we'll be destructuring from the useReducer
 // state - is the current state value, which you can use in your component.
 // dispatch fn - is a function you call to send actions to the reducer, which then updates the state.
+
+// ----------------
+
+// useRef()
+// useRef Hook provides a way to access and interact with DOM elements or to persist values across renders without causing a re-render.
+// this will make use of the 'ref' property inside an element and pass the useRef variable binded to that.
+// We can use useRef for a direct DOM manipulation when we want to.
