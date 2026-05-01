@@ -27,6 +27,7 @@ import UserStatus from "./components/UserStatus.jsx";
 import Weather from "./components/Weather.jsx";
 import WelcomeMessage from "./components/WelcomeMessage.jsx";
 import UpdateUser from "./components/UpdateUser.jsx";
+import CounterReducer from "./components/CounterReducer.jsx";
 // Timestamp: 58:00 - 49 hrs left.
 // Timestamp: 2:11:00 - 48 hrs left (Time spent: 2hrs & 50 minutes or ~3hrs)
 // Timestamp: 2:45:00 -~47 hrs left (Time Spent: 2hrs ) (covered useState)
@@ -34,6 +35,8 @@ import UpdateUser from "./components/UpdateUser.jsx";
 const App = () => {
   return (
     <>
+      <CounterReducer />
+
       <UserProvider>
         <UserProfile />
         <UpdateUser />
@@ -178,3 +181,19 @@ export default App;
 // instead of accessing the data through the callback function of the Context.Consumer element wrapping to return the JSX.
 // We can capture the value of the Context.Provider's passed data through binding it and by wrapping the Source exported createContext into a useContext to a variable.
 // We pass data using the createContext Wrapper parent, and we are going to access that data through importing that wrapper parent and using the useContext to access and bind the value into a variable.
+
+// --------------
+
+// useReducer()
+// useReducer is a hook that is similar to useState, but it is design for more complex state objects or state transitions that involves multipe sub-values. It allows you to manage state in a functioal, immutable way.
+
+// const [state, dispatch] = useReducer(reducer, initialState)
+
+// ----- arguments passed in the useReducer
+// initialState - is the starting value for the state when the component first renders.
+// reducer fn - is a function that describes how the state should change based on actions. It takes the current state and an action as inputs, and returns a new state.
+// reducer(state, action) - state is what are we updating, action is how we are going to update that state.
+
+// ----- things we'll be destructuring from the useReducer
+// state - is the current state value, which you can use in your component.
+// dispatch fn - is a function you call to send actions to the reducer, which then updates the state.
