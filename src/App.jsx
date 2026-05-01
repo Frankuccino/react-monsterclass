@@ -20,10 +20,13 @@ import ShoppingList from "./components/ShoppingList.jsx";
 import StyledCard from "./components/StyledCard.jsx";
 import Styling from "./components/Styling.jsx";
 import TodoList from "./components/TodoList.jsx";
+import UserProvider from "./components/UserProvider.jsx";
 import UserList from "./components/UserList.jsx";
+import UserProfile from "./components/UserProfile.jsx";
 import UserStatus from "./components/UserStatus.jsx";
 import Weather from "./components/Weather.jsx";
 import WelcomeMessage from "./components/WelcomeMessage.jsx";
+import UpdateUser from "./components/UpdateUser.jsx";
 // Timestamp: 58:00 - 49 hrs left.
 // Timestamp: 2:11:00 - 48 hrs left (Time spent: 2hrs & 50 minutes or ~3hrs)
 // Timestamp: 2:45:00 -~47 hrs left (Time Spent: 2hrs ) (covered useState)
@@ -31,6 +34,11 @@ import WelcomeMessage from "./components/WelcomeMessage.jsx";
 const App = () => {
   return (
     <>
+      <UserProvider>
+        <UserProfile />
+        <UpdateUser />
+      </UserProvider>
+
       <FetchDataEffect />
       <CounterEffect />
       <BasicEffect />
