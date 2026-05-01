@@ -33,7 +33,9 @@ import Timer from "./components/Timer.jsx";
 // Timestamp: 58:00 - 49 hrs left.
 // Timestamp: 2:11:00 - 48 hrs left (Time spent: 2hrs & 50 minutes or ~3hrs)
 // Timestamp: 2:45:00 -~47 hrs left (Time Spent: 2hrs ) (covered useState)
-// Timestamp: 3:05:00 - 47 hrs left (Time Spend: 1hr) (covered useEffect)
+// Timestamp: 3:05:00 - 47 hrs left (Time Spent: 1hr) (covered useEffect)
+// Timestamp: 4:00:00 - 46 hrs left (Time Spent: 2hr & 40 minutes)
+// (Covered: Prop Drilling, Context API, useReducer(), useRef(), customHooks, useId())
 const App = () => {
   return (
     <>
@@ -208,3 +210,14 @@ export default App;
 // useRef Hook provides a way to access and interact with DOM elements or to persist values across renders without causing a re-render.
 // this will make use of the 'ref' property inside an element and pass the useRef variable binded to that.
 // We can use useRef for a direct DOM manipulation when we want to.
+
+// -----------------
+
+// Custom Hooks
+// Custom Hooks are JavaScript functions that start with the prefix use (e.g., useFetch, useForm) and can call other hooks within them. They allow you to extract andreuse logic that involves state or side effects, making your components more readable and maintainable.
+// and example of that is creating a useFetch custom hook for all client url requests that can be reused from different components which accepts a url as an argument.
+
+//  -----------------
+
+// useId() Hook
+// The useId hook in React is used to generate unique IDs for components.
