@@ -2,6 +2,10 @@
 
 This repository serves as a deep-dive exploration of React.js core principles and hooks. It documents my transition into modern frontend engineering, focusing on the shift from imperative to declarative programming.
 
+## 📚 Curriculum Source
+
+I am following the [React Course](https://www.youtube.com/watch?v=M9O5AjEFzKw) by [huXn](https://github.com/huxn-webdev), a comprehensive 50.5-hour monsterclass (masterclass) covering the entire React ecosystem—from basic fundamentals to advanced design systems and full-stack integration.
+
 ## 🛠️ Core Concepts Mastered
 
 ### 1. The React Engine
@@ -37,8 +41,10 @@ _Tracking actual "seat time" spent coding, troubleshooting, and mastering the cu
 | **02:45:00**        | 47 hrs    | 2 hrs 00 min        | **6h 55m**             |
 | **03:05:00**        | 47 hrs    | 1 hr 00 min         | **7h 55m**             |
 | **04:00:00**        | 46 hrs    | 2 hrs 40 min        | **10h 35m**            |
+| **04:28:00**        | 45.5 hrs  | 2 hrs 15 min        | **12h 50m**            |
+| **06:43:00**        | 43.5 hrs  | 5 hrs 35 min        | **18h 25m**            |
 
-**Current Status:** ~10.5 Hours Invested | 46 Hours of Course Content Remaining.
+**Current Status:** ~18.5 Hours Invested | 43.5 Hours of Course Content Remaining.
 
 ---
 
@@ -46,5 +52,9 @@ _Tracking actual "seat time" spent coding, troubleshooting, and mastering the cu
 
 The foundational theory portion of this curriculum is now complete and archived in this repository.
 
-**Moving Forward:**  
-All upcoming **React Beginner Projects** will be built in **external repositories** to maintain clean architectural separation. These projects will focus on real-world applications of the hooks and patterns mastered here.
+**Moving Forward:**
+
+- [x] All upcoming **[React Beginner Projects](https://github.com/Frankuccino/react-project-demos)** will be built in **external repositories** to maintain clean architectural separation. These projects will focus on real-world applications of the hooks and patterns mastered here.
+
+- [ ] **TypeScript Complete Course**
+      My next objective is mastering Type-safety. I will be transitioning the logic learned during the foundational phase into TypeScript, starting at the 6:43:39 mark of the curriculum.
