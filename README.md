@@ -43,8 +43,9 @@ _Tracking actual "seat time" spent coding, troubleshooting, and mastering the cu
 | **04:00:00**        | 46 hrs    | 2 hrs 40 min        | **10h 35m**            |
 | **04:28:00**        | 45.5 hrs  | 2 hrs 15 min        | **12h 50m**            |
 | **06:43:00**        | 43.5 hrs  | 5 hrs 35 min        | **18h 25m**            |
+| **10:12:00**        | 40 hrs    | 6 hrs 30 min        | **24h 55m**            |
 
-**Current Status:** ~18.5 Hours Invested | 43.5 Hours of Course Content Remaining.
+**Current Status:** ~25h Hours Invested | 40 Hours of Course Content Remaining.
 
 ---
 
@@ -56,5 +57,8 @@ The foundational theory portion of this curriculum is now complete and archived 
 
 - [x] All upcoming **[React Beginner Projects](https://github.com/Frankuccino/react-project-demos)** will be built in **external repositories** to maintain clean architectural separation. These projects will focus on real-world applications of the hooks and patterns mastered here.
 
-- [ ] **TypeScript Complete Course**
+- [x] **[TypeScript Complete Course](https://github.com/Frankuccino/typescript-101)**
       My next objective is mastering Type-safety. I will be transitioning the logic learned during the foundational phase into TypeScript, starting at the 6:43:39 mark of the curriculum.
+
+- [ ] **React with TypeScript Integration**
+      The next objective is the specialized React + TS module. I will be implementing type-safe Props, State (using Discriminated Unions), and Generics within React Hooks to build enterprise-grade, crash-proof components.
