@@ -44,8 +44,10 @@ _Tracking actual "seat time" spent coding, troubleshooting, and mastering the cu
 | **04:28:00**        | 45.5 hrs  | 2 hrs 15 min        | **12h 50m**            |
 | **06:43:00**        | 43.5 hrs  | 5 hrs 35 min        | **18h 25m**            |
 | **10:12:00**        | 40 hrs    | 6 hrs 30 min        | **24h 55m**            |
+| **10:51:00**        | 39.5 hrs  | 2 hrs 05 min        | **27h 00m**            |
+| **11:29:00**        | 38.5 hrs  | 2 hrs 15 min        | **29h 15m**            |
 
-**Current Status:** ~25h Hours Invested | 40 Hours of Course Content Remaining.
+**Current Status:** ~29.25 Hours Invested | 38.5 Hours of Course Content Remaining.
 
 ---
 
@@ -60,5 +62,8 @@ The foundational theory portion of this curriculum is now complete and archived 
 - [x] **[TypeScript Complete Course](https://github.com/Frankuccino/typescript-101)**
       My next objective is mastering Type-safety. I will be transitioning the logic learned during the foundational phase into TypeScript, starting at the 6:43:39 mark of the curriculum.
 
-- [ ] **React with TypeScript Integration**
+- [x] **[React with TypeScript Integration](https://github.com/Frankuccino/react-typescript-demos)**
       The next objective is the specialized React + TS module. I will be implementing type-safe Props, State (using Discriminated Unions), and Generics within React Hooks to build enterprise-grade, crash-proof components.
+
+- [ ] **React 19 Core Features Architecture (~4 Hours Content)**
+      My next target is diving into the bleeding-edge React 19 ecosystem. I will be exploring the new React Compiler, migrating legacy patterns (`useContext`, `useMemo`, `useEffect` data fetching) over to the native `use()` hook, and implementing asynchronous Form Actions with `useActionState` and `useFormStatus`. This will be built out in an isolated repository to study the upcoming framework shifts.
